@@ -1,0 +1,376 @@
+---
+
+- taxonomy: 常用推荐
+  icon: far fa-star
+  links: 
+    - title: GitHub
+      logo: github.png
+      url: https://github.com/
+      description: GitHub 开源社区。
+    - title: 哔哩哔哩
+      logo: 哔哩哔哩.png
+      url: https://www.bilibili.com/
+      description: Bilibili 视频弹幕网站。
+    - title: UJS
+      logo: ujs.png
+      url: https://webvpn.ujs.edu.cn/
+      description: 江苏大学WebVPN。
+    - title: Gitee
+      logo: gitee.ico
+      url: https://gitee.com/
+      description: Gitee 开源社区。
+
+
+
+- taxonomy: 生产力
+  icon: far fa-folder-open fa-lg
+  list:
+    - term: 在线工具
+      links:
+        - title: 工具合集1
+          logo: runoob.ico
+          url: https://www.jyshare.com/
+
+        - title: 工具合集2
+          logo: fmhy.ico
+          url: https://fmhy.net/
+
+        - title: 拾色器
+
+          url: https://www.jyshare.com/front-end/6214/
+
+        - title: 图像合并
+          url: https://www.jyshare.com/front-end/9436/
+        - title: 迈从
+          url: https://www.mchose.com.cn/#/detail
+        - title: PDF24
+          url: https://tools.pdf24.org/zh/all-tools
+        - title: dazidazi打字
+          url: https://dazidazi.com/
+
+    - term: 实用网站
+      links:
+        - title: macwk
+          logo: macwk.png
+          url: https://macwk.cn/
+          description: mac软件破解。
+        - title: Formulae
+          logo: homebrew.svg
+          url: https://formulae.brew.sh/formula/
+          description: Homebrew package manager for macOS and Linux.
+        
+        - title: hugo
+          logo: hugo.png 
+          url: https://hugo.opendocs.io/
+
+        - title: Mac快捷键
+          logo: mac.ico
+          url: https://support.apple.com/zh-cn/102650
+
+        - title: GreasyFork
+          logo: GreasyFork.png
+          url: https://greasyfork.org/en
+          description: 脚本之家。 
+        - title: Neodb
+          logo: neodb.png
+          url: https://neodb.social/discover/
+          description: Neodb 社区。
+        - title: 天地图
+          logo: map.ico
+          url: https://map.tianditu.gov.cn/
+        - title: 历史地图网
+          logo: txlzp.ico
+          url: http://www.txlzp.com/
+        
+
+
+    - term: AI
+      links:
+        - title: Deepseek
+          logo: deepseek.png
+          url: https://chat.deepseek.com/
+
+        - title: Kimi
+          logo: kimi.png
+          url: https://www.kimi.com/
+        - title: Gemini
+          url: https://gemini.google.com/app
+        - title: 千问
+          url: https://www.qianwen.com/
+        - title: OpenRouter
+          url: https://openrouter.ai/
+        - title: PromptPilot
+          url: https://promptpilot.volcengine.com/startup
+        - title: Prompts Chat
+          url: https://prompts.chat/prompts
+        - title: skill0
+          url: https://skill0.io/
+        - title: Stitch
+          url: https://stitch.withgoogle.com/?pli=1
+        - title: 提示词优化器
+          url: https://prompt.always200.com/#/basic/system
+        - title: NotebookLM
+          url: https://notebooklm.google.com/
+
+    - term: 云服务器
+      links:
+        - title: 阿里云
+          logo: 阿里云.jpg
+          url: https://www.aliyun.com/
+          description: 上云就上阿里云。
+        - title: 腾讯云
+          logo: 腾讯云.webp
+          url: https://cloud.tencent.com/
+          description: 产业智变，云启未来。
+        - title: 华为云
+          logo: 华为云.png
+          url: https://www.huaweicloud.com/
+          description: 提供云计算服务+智能，见未来-华为云。
+    - term: 邮箱
+      links:
+        - title: qq邮箱
+          logo: qqmail1.png
+          url: https://wx.mail.qq.com/
+
+        - title: 163邮箱
+          logo: 163.ico
+          url: https://mail.163.com/
+
+    - term: 机场
+      links:
+        - title: 我爱翻墙
+          url: https://52fanqiang.com/
+        - title: 魔戒
+          url: https://mojie.tel/#/dashboard
+        - title: 飞鸟云
+          url: https://feiniaoyun.xyz/#/dashboard
+        - title: ikuuu
+          logo: ikuuu.ico
+          url: https://ikuuu.one/user
+  
+        - title: 中国国际机场
+          logo: 中国国际机场.ico
+          url: https://hi.hanamaki.dev/public/#/dashboard
+
+
+        
+
+- taxonomy: 休闲娱乐
+  icon: far fa-folder-open fa-lg
+  list:
+    - term: 有意思
+      links:
+        - title: 摸鱼忍者
+          logo: ninja.png
+          url: https://996.ninja/
+    - term: 开放交流
+      links:
+        - title: x
+          logo: twitter.3.ico
+          url: https://x.com/ 
+    - term: 影视资源
+      links:
+        - title: 腾讯视频
+          logo: 腾讯视频.png
+          url: http://v.qq.com/
+          description: 腾讯视频，海量视频在线观看。
+        - title: 哔哩哔哩
+          logo: 哔哩哔哩.png
+          url: https://www.bilibili.com/
+          description: Bilibili 视频弹幕网站。
+        - title: 抖音
+          logo: douyin.png
+          url: https://www.douyin.com/?recommend=1
+          description: 抖音
+        - title: Netflix
+          logo: 腾讯视频.png
+          url: https://www.netflix.com/
+          description: 奈飞。
+        - title: 虎牙
+          logo: huya.png
+          url: https://www.huya.com/
+          description: 虎牙
+        - title: 樱花动漫
+          logo: 哔哩哔哩.png
+          url: https://www.yinhuadm.vip/
+          description: 樱花动漫
+        - title: 厂长资源
+          logo: czzy.ico
+
+          url: https://www.cz4k.com/
+        - title: 爱壹帆
+          logo: ayf.ico
+
+          url: https://www.yfsp.tv/
+        - title: libvio
+          url: https://www.libvio.cc/
+
+    - term: 音乐
+      links:
+        - title: 歌曲宝
+          logo: gequbao.png
+          url: https://www.gequbao.com/
+
+    - term: 图片漫画
+      links:
+        - title: Pixiv
+          logo: pixiv.ico
+          url: https://www.pixiv.net/
+
+        - title: unsplash
+          logo: unsplash1.png
+          url: https://unsplash.com/
+    - term: 成人世界
+      links:
+        - title: missav
+          logo: missav.png
+          url: https://missav.ai/
+
+        - title: hanime1
+          logo: hanime1.png
+          url: https://hanime1.me/
+        - title: 萝次元
+          url: https://luolcy.com/
+        - title: jmcomic
+          logo: jm.ico
+          url: https://18comic.vip/
+
+- taxonomy: 自我提升
+  icon: far fa-folder-open fa-lg
+  list:
+    - term: 图书阅读
+      links:
+        - title: Zlibrary
+          logo: zlibrary.ico
+          url: https://z-lib.id/
+        - title: 古文岛
+          url: https://www.guwendao.net/
+        - title: 识典古籍
+          url: https://www.shidianguji.com/
+       
+
+  
+      
+- taxonomy: 程序猿
+  icon: far fa-folder-open fa-lg
+  list:
+    - term: 博客论坛
+      links:
+        - title: stackoverflow
+          logo: stackoverflow.ico
+          url: https://stackoverflow.com/
+
+        - title: CSDN
+          logo: csdn.ico
+          url: https://www.csdn.net/
+
+        - title: LeetCode
+          logo: leetcode.ico
+          url: https://leetcode.cn/
+    - term: 合作开发
+      links:
+        - title: 蓝湖
+          logo: lanhu.ico
+          url: https://lanhuapp.com
+
+          
+    - term: 教程
+      links:
+        - title: 廖雪峰
+          logo: lxf.ico
+          url: https://liaoxuefeng.com/
+
+        - title: 菜鸟教程
+          logo: cainiao.ico
+          url: https://www.runoob.com/
+        - title: vue3
+          logo: vue3cpq.ico
+          url: https://vue3.chengpeiquan.com/
+        - title: 美团技术文档
+          url: https://tech.meituan.com/
+        - title: Datawhale
+          url: https://www.datawhale.cn/home
+    - term: 工具
+      links:
+        - title: Linux指令大全
+          logo: redhat.png
+          url: https://www.linuxcool.com/
+        - title: mvnrepository
+          logo: mvn.ico
+          url: https://mvnrepository.com/
+        - title: Carbon
+          logo: carbon.png
+          url: https://carbon.now.sh/
+          description: Create and share beautiful images of your source code. 
+        - title: icons
+          url: https://icones.js.org/
+        - title: Dcloud
+          url: https://ext.dcloud.net.cn/
+        - title: 微信公众平台
+          url: https://mp.weixin.qq.com/
+        - title: 免费API
+          url: https://www.free-api.com/doc/66
+        - title: 鬼鬼API
+          url: https://api.guiguiya.com/doc/hotlist.html
+        - title: GitHub Star History
+          url: https://www.star-history.com/
+        - title: Supabase
+          url: https://supabase.com/dashboard/org
+        - title: superpowers
+          url: https://github.com/obra/superpowers
+
+    - term: 文档
+      links:
+        - title: AMap
+          url: https://lbs.amap.com/api/javascript-api-v2/summary
+
+        - title: Echarts
+          logo: echarts.png
+          url: https://echarts.apache.org/zh/index.html
+
+        - title: EasyExcel
+          url: https://easyexcel.opensource.alibaba.com/
+
+        - title: Uniapp
+          url: https://zh.uniapp.dcloud.io/tutorial/
+
+        - title: Ruoyi
+          url: https://doc.ruoyi.vip/
+
+        - title: Hadoop
+          url: https://hadoop.apache.org/
+        - title: ucharts
+          url: https://www.ucharts.cn/v2/#/
+
+        - title: uview
+          url: https://uview-plus.jiangruyi.com/components/intro.html
+        - title: sa-token
+          url: https://sa-token.cc/doc.html#/
+        - title: wotui
+          url: https://wot-ui.cn/
+        - title: langchain4j
+          url: https://docs.langchain4j.info/
+        - title: z-paging
+          url: https://z-paging.zxlee.cn/
+        - title: ucharts
+          url: https://www.ucharts.cn/v2/#/guide/index
+        - title: ESLint
+          url: https://zh-hans.eslint.org/docs/latest/use/configure/rules
+        - title: OpenCode
+          url: https://opencode.ai/docs/zh-cn/plugins/
+
+
+        
+
+        
+        
+        
+        
+        
+
+        
+        
+
+    
+          
+    

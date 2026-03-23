@@ -1,0 +1,27 @@
+body { font-family: 'Inter', sans-serif; }
+.font-manrope { font-family: 'Manrope', sans-serif; }
+.material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; }
+.glass-header { backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); }
+.hide-scrollbar::-webkit-scrollbar { display: none; }
+.hide-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+.scale-102 { transform: scale(1.02); }
+
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Category transition */
+.category-btn {
+    transition: all 0.3s ease;
+}
+
+/* Hidden state for smooth transitions */
+.hidden {
+    display: none !important;
+}
+
+/* Base styles for layout transitions */
+#initial-view {
+    /* 移除 min-height: 100vh 避免留白 */
+}
