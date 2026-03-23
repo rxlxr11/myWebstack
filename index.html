@@ -80,8 +80,8 @@
 </head>
 <body class="bg-gray-50 text-gray-900 dark:bg-surface-dim dark:text-on-surface selection:bg-tertiary/30 transition-colors duration-300">
     <!-- THEME TOGGLE BUTTON -->
-    <button id="theme-toggle" class="fixed top-6 right-6 z-[60] w-12 h-12 rounded-full bg-white dark:bg-surface-container-highest border border-gray-200 dark:border-outline-variant/30 flex items-center justify-center text-gray-700 dark:text-on-surface hover:bg-gray-100 dark:hover:bg-surface-bright hover:scale-110 transition-all duration-300 shadow-lg">
-        <span id="theme-icon" class="material-symbols-outlined text-2xl">light_mode</span>
+    <button id="theme-toggle" class="fixed top-2 right-2 md:top-6 md:right-6 z-[60] w-8 h-8 md:w-12 md:h-12 rounded-full bg-white dark:bg-surface-container-highest border border-gray-200 dark:border-outline-variant/30 flex items-center justify-center text-gray-700 dark:text-on-surface hover:bg-gray-100 dark:hover:bg-surface-bright hover:scale-110 transition-all duration-300 shadow-lg">
+        <span id="theme-icon" class="material-symbols-outlined text-lg md:text-2xl">light_mode</span>
     </button>
 
     <main class="min-h-screen flex flex-col relative">
@@ -93,37 +93,37 @@
             <div id="sticky-holder" class="hidden w-full"></div>
             <!-- SEARCH & CATEGORY BAR SECTION -->
             <div id="search-nav-container" class="w-full transition-all duration-500 ease-in-out z-50">
-                <section class="max-w-5xl mx-auto px-8 py-6 flex flex-col items-center">
+                <section class="max-w-5xl mx-auto px-4 pr-12 md:px-8 py-3 md:py-6 flex flex-col items-center">
                     <form id="search-form" action="#" class="w-full max-w-2xl group relative" method="GET">
                         <!-- 搜索引擎选择下拉框 -->
-                        <div class="absolute inset-y-0 left-2 flex items-center pl-2 z-10 w-24">
-                            <select id="search-engine-select" class="w-full bg-transparent bg-none text-gray-600 dark:text-on-surface-variant border-none focus:ring-0 text-sm font-medium cursor-pointer appearance-none pr-6 outline-none">
+                        <div class="absolute inset-y-0 left-2 flex items-center pl-1 md:pl-2 z-10 w-[4.5rem] md:w-24">
+                            <select id="search-engine-select" class="w-full bg-transparent bg-none text-gray-600 dark:text-on-surface-variant border-none focus:ring-0 text-xs md:text-sm font-medium cursor-pointer appearance-none pr-4 md:pr-6 outline-none">
                                 <option value="local">本站</option>
                                 <option value="bing">Bing</option>
                                 <option value="google">Google</option>
                                 <option value="baidu">百度</option>
                             </select>
-                            <span class="material-symbols-outlined text-gray-400 dark:text-on-surface-variant absolute right-1 pointer-events-none" style="font-size: 18px;">expand_more</span>
+                            <span class="material-symbols-outlined text-gray-400 dark:text-on-surface-variant absolute right-0 md:right-1 pointer-events-none text-[16px] md:text-[18px]">expand_more</span>
                         </div>
                         
                         <!-- 分割线 -->
-                        <div class="absolute inset-y-3 left-[7rem] w-px bg-gray-300 dark:bg-outline-variant/50 z-10"></div>
+                        <div class="absolute inset-y-2 md:inset-y-3 left-[5rem] md:left-[7rem] w-px bg-gray-300 dark:bg-outline-variant/50 z-10"></div>
 
                         <!-- 搜索图标 -->
-                        <div class="absolute inset-y-0 left-[8rem] flex items-center pointer-events-none z-10">
-                            <span class="material-symbols-outlined text-gray-400 dark:text-on-surface-variant group-focus-within:text-tertiary transition-colors" data-icon="search">search</span>
+                        <div class="absolute inset-y-0 left-[5.5rem] md:left-[8rem] flex items-center pointer-events-none z-10">
+                            <span class="material-symbols-outlined text-gray-400 dark:text-on-surface-variant group-focus-within:text-tertiary transition-colors text-lg md:text-2xl" data-icon="search">search</span>
                         </div>
                         
-                        <input id="search-input" class="w-full bg-white dark:bg-surface-container-lowest border border-gray-200 dark:border-none rounded-xl py-4 pl-[10.5rem] pr-16 text-lg focus:ring-2 focus:ring-tertiary/20 focus:scale-102 transition-all duration-500 ease-out text-gray-800 dark:text-on-surface placeholder:text-gray-400 dark:placeholder:text-outline shadow-md" name="q" placeholder="搜索一下..." type="text" autocomplete="off"/>
+                        <input id="search-input" class="w-full bg-white dark:bg-surface-container-lowest border border-gray-200 dark:border-none rounded-xl py-3 md:py-4 pl-[7.5rem] md:pl-[10.5rem] pr-12 md:pr-16 text-sm md:text-lg focus:ring-2 focus:ring-tertiary/20 focus:scale-102 transition-all duration-500 ease-out text-gray-800 dark:text-on-surface placeholder:text-gray-400 dark:placeholder:text-outline shadow-md" name="q" placeholder="搜索一下..." type="text" autocomplete="off"/>
                         
-                        <div class="absolute right-4 inset-y-0 flex items-center z-10">
+                        <div class="absolute right-3 md:right-4 inset-y-0 flex items-center z-10">
                             <kbd class="hidden md:inline-flex items-center rounded border border-gray-200 dark:border-outline-variant px-2 py-1 text-xs text-gray-400 dark:text-outline font-sans">⌘ K</kbd>
                         </div>
                     </form>
                     
                     <!-- CATEGORY BAR (Dynamically populated) -->
-                    <div class="w-full mt-6 flex items-center justify-center">
-                        <div id="category-bar" class="flex space-x-2 overflow-x-auto hide-scrollbar pb-2 mask-fade-edges">
+                    <div class="w-full mt-3 md:mt-6 flex items-center justify-center">
+                        <div id="category-bar" class="flex space-x-2 overflow-x-auto hide-scrollbar pb-2 mask-fade-edges pl-2 pr-2 md:pr-0">
                             <!-- Categories will be injected here -->
                         </div>
                     </div>

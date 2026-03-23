@@ -310,7 +310,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         recommendedSection.classList.add('hidden');
 
         // 搜索导航吸顶 (使用 fixed)
-        searchNavContainer.classList.add('fixed', 'top-0', 'left-0', 'right-0', 'bg-white/90', 'dark:bg-surface-dim/90', 'backdrop-blur-xl', 'border-b', 'border-gray-200', 'dark:border-outline-variant/10', 'py-2');
+        searchNavContainer.classList.add('fixed', 'top-0', 'left-0', 'right-0', 'bg-white/90', 'dark:bg-surface-dim/90', 'backdrop-blur-xl', 'border-b', 'border-gray-200', 'dark:border-outline-variant/10', 'py-1', 'md:py-2');
         searchNavContainer.classList.remove('w-full'); 
         
         // 显示主体内容
@@ -336,7 +336,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         recommendedSection.classList.remove('hidden');
 
         // 取消吸顶
-        searchNavContainer.classList.remove('fixed', 'top-0', 'left-0', 'right-0', 'bg-white/90', 'dark:bg-surface-dim/90', 'backdrop-blur-xl', 'border-b', 'border-gray-200', 'dark:border-outline-variant/10', 'py-2');
+        searchNavContainer.classList.remove('fixed', 'top-0', 'left-0', 'right-0', 'bg-white/90', 'dark:bg-surface-dim/90', 'backdrop-blur-xl', 'border-b', 'border-gray-200', 'dark:border-outline-variant/10', 'py-1', 'md:py-2');
         searchNavContainer.classList.add('w-full');
         
         // 隐藏主体内容
