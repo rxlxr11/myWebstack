@@ -14,7 +14,7 @@
 
 ## 📸 界面预览
 
-示例：[我的导航](https://vercel.com/rxlxr11s-projects/my-webstack)
+示例：[我的导航](https://my-webstack.vercel.app/)
 
 ![界面截图1](imgs/2026-03-23_15-22-32.png)
 ![界面截图2](imgs/2026-03-23_15-22-44.png)
