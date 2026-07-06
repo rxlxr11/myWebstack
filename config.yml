@@ -47,6 +47,12 @@
           url: https://tools.pdf24.org/zh/all-tools
         - title: dazidazi打字
           url: https://dazidazi.com/
+        - title: Prism
+          url: https://prism.openai.com/
+        - title: TinyPNG中文
+          url: https://tinify.cn/
+        - title: TinyPNG
+          url: https://tinypng.com/
 
     - term: 实用网站
       links:
@@ -81,6 +87,8 @@
         - title: 历史地图网
           logo: txlzp.ico
           url: http://www.txlzp.com/
+        - title: BuildCores
+          url: https://www.buildcores.com/
         
 
 
@@ -111,6 +119,10 @@
           url: https://prompt.always200.com/#/basic/system
         - title: NotebookLM
           url: https://notebooklm.google.com/
+        - title: 魔搭社区模型库
+          url: https://www.modelscope.cn/models
+        - title: Agent Skills Directory
+          url: https://www.skills.sh/
 
     - term: 云服务器
       links:
@@ -204,6 +216,8 @@
           url: https://www.yfsp.tv/
         - title: libvio
           url: https://www.libvio.cc/
+        - title: LIBVIO发布页
+          url: https://www.libvio.app/
 
     - term: 音乐
       links:
@@ -247,6 +261,36 @@
           url: https://www.guwendao.net/
         - title: 识典古籍
           url: https://www.shidianguji.com/
+    - term: 学术科研
+      links:
+        - title: Zotero插件商店
+          url: https://zotero-chinese.com/plugins/
+    - term: 英语学习
+      links:
+        - title: HotShot英语
+          url: https://www.douyin.com/user/MS4wLjABAAAAKObjGd_jd_XEApix_0X_KpLxehvQTm-IBxIAcYE8DMmFbPTKDj6tqGNzglTBYI8F
+        - title: 曦雅英语
+          url: https://www.douyin.com/user/MS4wLjABAAAAHH01t7DUZ2jQsty8Jdl5Tgr_RACzcWgG0NI_drkuAKf-MXupj5jsodlHD5oNEChR
+        - title: BigShot英语
+          url: https://www.douyin.com/user/MS4wLjABAAAAygb3vPggkq_yQ7PMjTVgX-S_JFHZZ6b1ZREk47JQv-NErTezJw7okr2Ry_C6wTdb
+    - term: 求职招聘
+      links:
+        - title: Freelancer
+          url: https://www.freelancer.com/
+        - title: 国资央企招聘平台
+          url: https://cujiuye.iguopin.com/
+        - title: 国资央企在招职位
+          url: https://cujiuye.iguopin.com/job
+        - title: 国聘
+          url: https://www.iguopin.com/
+        - title: 国家大学生就业服务平台
+          url: https://www.ncss.cn/student/jobs/internindex.html?industrySectors=000101&industrySectorsName=%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%BD%AF%E4%BB%B6
+        - title: 超级简历
+          url: https://www.wondercv.com/jianlimoban/shixi/
+    - term: 创业案例
+      links:
+        - title: Loot Drop
+          url: https://www.loot-drop.io/
        
 
   
@@ -267,6 +311,8 @@
         - title: LeetCode
           logo: leetcode.ico
           url: https://leetcode.cn/
+        - title: Hacker News热门博客2025
+          url: https://gist.github.com/emschwartz/e6d2bf860ccc367fe37ff953ba6de66b
     - term: 合作开发
       links:
         - title: 蓝湖
@@ -290,6 +336,18 @@
           url: https://tech.meituan.com/
         - title: Datawhale
           url: https://www.datawhale.cn/home
+        - title: LeetBook
+          url: https://leetcode.cn/leetbook/
+        - title: Hello算法
+          url: https://www.hello-algo.com/
+        - title: Learn Claude Code
+          url: https://learn.shareai.run/zh/s01/
+        - title: LangGraph教程
+          url: https://github.langchain.ac.cn/langgraph/tutorials/
+        - title: 前端学习资料总导航
+          url: https://y03l2iufsbl.feishu.cn/wiki/RDZlw5Atoi7MyrkZPFocMB8nnVg
+        - title: ExplainThis
+          url: https://www.explainthis.io/zh-hant
     - term: 工具
       links:
         - title: Linux指令大全
@@ -314,6 +372,10 @@
           url: https://api.guiguiya.com/doc/hotlist.html
         - title: GitHub Star History
           url: https://www.star-history.com/
+        - title: next-ai-draw-io Star History
+          url: https://www.star-history.com/?repos=DayuanJiang%2Fnext-ai-draw-io&type=date&legend=top-left
+        - title: OpenCode中文站
+          url: https://www.opencodecn.com/
         - title: Supabase
           url: https://supabase.com/dashboard/org
         - title: superpowers
@@ -323,6 +385,8 @@
       links:
         - title: AMap
           url: https://lbs.amap.com/api/javascript-api-v2/summary
+        - title: Cesium中文网
+          url: https://cesium.xin/
 
         - title: Echarts
           logo: echarts.png
@@ -358,19 +422,3 @@
           url: https://zh-hans.eslint.org/docs/latest/use/configure/rules
         - title: OpenCode
           url: https://opencode.ai/docs/zh-cn/plugins/
-
-
-        
-
-        
-        
-        
-        
-        
-
-        
-        
-
-    
-          
-    
